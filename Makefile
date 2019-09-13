@@ -15,11 +15,6 @@ runserver:
 	. venv/bin/activate
 	python backend/manage.py runserver
 
-
-e2e_test:
-	. venv/bin/activate
-	cd ./backend && pytest -s tests/e2e/
-
 underlords_test:
 	. venv/bin/activate
 	cd ./backend && pytest -s tests/underlords/

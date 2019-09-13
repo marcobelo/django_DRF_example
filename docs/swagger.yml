@@ -16,5 +16,12 @@ paths:
     get:
       tags:
         - Utilities
-      summary: Healthcheck
+      summary: Use it to check if the server is running
       $ref: "paths/healthcheck.yml"
+  
+  /heroes/:
+    get:
+      tags:
+        - Underlords
+      summary: List heroes names and tiers
+      $ref: "paths/list_heroes.yml"
