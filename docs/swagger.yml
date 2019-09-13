@@ -12,7 +12,7 @@ tags:
   - name: Underlords
 
 paths:
-  /healthcheck:
+  /healthcheck/:
     get:
       tags:
         - Utilities

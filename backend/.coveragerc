@@ -1,0 +1,13 @@
+[run]
+include = ./*
+omit =
+    *apps.py,
+    *__init__.py,
+    *tests/*,
+    *test*.py,
+    *admin.py,
+    *migrations/*,
+    *settings*,
+    *urls.py,
+    *wsgi.py,
+    manage.py
