@@ -1,10 +1,10 @@
 import pytest
 import requests
+from django.core.management import call_command
 from hamcrest import assert_that, has_entries, has_items
-from mixer.backend.django import mixer
-from underlords.models import Heroes
 
 from tests.commons import BASE_URL
+from underlords.models import Heroes
 
 pytestmark = pytest.mark.django_db
 
@@ -18,8 +18,7 @@ def test_healthcheck(client):
 
 
 def test_list_heroes(client):
-    hero = mixer.blend(Heroes)
-    hero.save()
+    call_command("loaddata", "underlords.json", verbosity=0)
     response = client.get(f"{BASE_URL}/heroes/", format="json")
     data = response.json()
 
