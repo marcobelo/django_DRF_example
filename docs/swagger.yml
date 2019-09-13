@@ -25,3 +25,10 @@ paths:
         - Underlords
       summary: List heroes names and tiers
       $ref: "paths/list_heroes.yml"
+  
+  /build/{heroes}:
+    get:
+      tags:
+        - Underlords
+      summary: Send your 10 heroes via path param and get the heroes separated by tier and all alliances effects gained
+      $ref: "paths/build.yml"

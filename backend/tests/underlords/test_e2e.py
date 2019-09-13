@@ -4,7 +4,6 @@ from django.core.management import call_command
 from hamcrest import assert_that, has_entries, has_items
 
 from tests.commons import BASE_URL
-from underlords.models import Heroes
 
 pytestmark = pytest.mark.django_db
 

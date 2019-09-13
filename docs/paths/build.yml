@@ -1,0 +1,57 @@
+responses:
+  200:
+    description: ok
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            heroes_per_tier:
+              type: object
+              properties:
+                1:
+                  type: array
+                  items:
+                    type: string
+                    example: "axe"
+                2:
+                  type: array
+                  items:
+                    type: string
+                    example: "juggernaut"
+                3:
+                  type: array
+                  items:
+                    type: string
+                    example: "lycan"
+                4:
+                  type: array
+                  items:
+                    type: string
+                    example: "mirana"
+                5:
+                  type: array
+                  items:
+                    type: string
+                    example: "techies"
+            effects_per_alliance:
+              type: object
+              properties:
+                assassin:
+                  type: object
+                  properties:
+                    effect:
+                      type: string
+                      example: assassins gain a 10% chance to critical hit for 300% damage.
+                    quantity:
+                      type: integer
+                      example: 3
+                elusive:
+                  type: object
+                  properties:
+                    effect:
+                      type: string
+                      example: elusive units gain +45% evasion.
+                    quantity:
+                      type: integer
+                      example: 6
