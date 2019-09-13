@@ -8,16 +8,13 @@ migra:
 
 runserver:
 	. venv/bin/activate
-	make migra
 	python backend/manage.py runserver
 
 
 e2e_test:
 	. venv/bin/activate
-	make migra
 	cd ./backend && pytest -s tests/e2e/
 
 underlords_test:
 	. venv/bin/activate
-	make migra
 	cd ./backend && pytest -s tests/underlords/

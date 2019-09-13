@@ -21,6 +21,11 @@ jobs:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements/dev.txt" }}
       - run:
+          name: "make migrations"
+          command: |
+            . venv/bin/activate
+            make migra
+      - run:
           name: "Start Django server"
           background: true
           command: |
@@ -56,6 +61,11 @@ jobs:
           paths:
             - ./venv
           key: v1-dependencies-{{ checksum "requirements/dev.txt" }}
+      - run:
+          name: "make migrations"
+          command: |
+            . venv/bin/activate
+            make migra
       - run:
           name: "run underlords_tests"
           command: |
