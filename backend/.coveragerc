@@ -10,4 +10,5 @@ omit =
     *settings*,
     *urls.py,
     *wsgi.py,
-    manage.py
+    manage.py,
+    *underlords/data/*

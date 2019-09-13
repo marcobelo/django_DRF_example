@@ -1,0 +1,312 @@
+{
+    "assassin": {
+        "heroes": [
+            "bloodseeker",
+            "bounty hunter",
+            "morphling",
+            "phantom assassin",
+            "queen of pain",
+            "sand king",
+            "slark",
+            "templar assassin",
+            "viper"
+        ],
+        "effects": {
+            "3": "assassins gain a 10% chance to critical hit for 300% damage.",
+            "6": "assassins gain a 20% chance to critical hit for 400% damage.",
+            "9": "assassins gain a 30% chance to critical hit for 500% damage."
+        }
+    },
+    "blood-bound": {
+        "heroes": [
+            "ogre magi",
+            "warlock"
+        ],
+        "effects": {
+            "2": "when a blood-bound unit dies, all other blood-bound units deal +100% attack damage for the rest of the battle."
+        }
+    },
+    "brawny": {
+        "heroes": [
+            "axe",
+            "beastmaster",
+            "disruptor",
+            "juggernaut"
+        ],
+        "effects": {
+            "2": "all brawny units have their maximum hp increased by 200.",
+            "4": "all brawny units have their maximum hp increased by 500."
+        }
+    },
+    "deadeye": {
+        "heroes": [
+            "gyrocopter",
+            "sniper"
+        ],
+        "effects": {
+            "2": "deadeye units focus their attacks on the lowest-health enemy."
+        }
+    },
+    "demon": {
+        "heroes": [
+            "chaos knight",
+            "doom",
+            "queen of pain",
+            "shadow fiend",
+            "terrorblade"
+        ],
+        "effects": {
+            "1": "demon units gain +50% pure damage. active when you have only one type of demon unit on the board."
+        }
+    },
+    "demon hunter": {
+        "heroes": [
+            "anti-mage",
+            "terrorblade"
+        ],
+        "effects": {
+            "1": "invalidate your opponents demon alliance bonus.",
+            "2": "invalidate your opponents demon alliance bonus. demon units gain +50% pure damage."
+        }
+    },
+    "dragon": {
+        "heroes": [
+            "dragon knight",
+            "puck",
+            "viper"
+        ],
+        "effects": {
+            "2": "all dragon units unlock an additional draconic ability."
+        }
+    },
+    "druid": {
+        "heroes": [
+            "enchantress",
+            "nature's prophet",
+            "lone druid",
+            "treant protector"
+        ],
+        "effects": {
+            "2": "the lowest star ally druid is upgraded a level.",
+            "4": "the 2 lowest star ally druids are upgraded a level each."
+        }
+    },
+    "elusive": {
+        "heroes": [
+            "anti-mage",
+            "nature's prophet",
+            "luna",
+            "phantom assassin",
+            "puck",
+            "templar assassin",
+            "treant protector",
+            "wind ranger",
+            "mirana"
+        ],
+        "effects": {
+            "3": "elusive units gain +20% evasion.",
+            "6": "elusive units gain +45% evasion.",
+            "9": "elusive units gain +75% evasion."
+        }
+    },
+    "heartless": {
+        "heroes": [
+            "abaddon",
+            "drow ranger",
+            "lich",
+            "necrophos",
+            "pudge"
+        ],
+        "effects": {
+            "2": "enemies suffer -5 armor.",
+            "4": "enemies suffer -10 armor.",
+            "6": "enemies suffer -20 armor."
+        }
+    },
+    "human": {
+        "heroes": [
+            "crystal maiden",
+            "dragon knight",
+            "keeper of the light",
+            "kunkka",
+            "lina",
+            "lycan",
+            "omniknight",
+            "bloodseeker"
+        ],
+        "effects": {
+            "2": "human units gain a 20% chance to silence target for 4 seconds when attacking.",
+            "4": "human units gain a 44% chance to silence target for 4 seconds when attacking.",
+            "6": "human units gain a 66% chance to silence target for 4 seconds when attacking."
+        }
+    },
+    "hunter": {
+        "heroes": [
+            "beastmaster",
+            "drow ranger",
+            "medusa",
+            "sniper",
+            "tidehunter",
+            "wind ranger",
+            "mirana"
+        ],
+        "effects": {
+            "3": "hunters have a 15% chance of quickly performing 3 attacks.",
+            "6": "hunters have a 25% chance of quickly performing 3 attacks."
+        }
+    },
+    "inventor": {
+        "heroes": [
+            "clockwerk",
+            "gyrocopter",
+            "techies",
+            "timbersaw",
+            "tinker"
+        ],
+        "effects": {
+            "2": "inventors gain +15 hp regeneration.",
+            "4": "inventors gain +40 hp regeneration."
+        }
+    },
+    "knight": {
+        "heroes": [
+            "abaddon",
+            "batrider",
+            "chaos knight",
+            "dragon knight",
+            "luna",
+            "omniknight"
+        ],
+        "effects": {
+            "2": "knight units take 15% less physical and magic damage and an additional 20% when standing 1 cell away from another knight.",
+            "4": "knight units take 25% less physical and magic damage and an additional 25% when standing 1 cell away from another knight.",
+            "6": "knight units take 35% less physical and magic damage and an additional 30% when standing 1 cell away from another knight."
+        }
+    },
+    "mage": {
+        "heroes": [
+            "crystal maiden",
+            "keeper of the light",
+            "lich",
+            "lina",
+            "ogre magi",
+            "puck",
+            "razor"
+        ],
+        "effects": {
+            "3": "enemies suffer -40% magic resistance.",
+            "6": "enemies suffer -100% magic resistance."
+        }
+    },
+    "primordial": {
+        "heroes": [
+            "enigma",
+            "morphling",
+            "razor",
+            "tiny",
+            "arc warden"
+        ],
+        "effects": {
+            "2": "when hit, primordial units have a 30% chance to disarm melee attackers for 4 seconds.",
+            "4": "when hit, allies have a 30% chance to disarm melee attackers for 4 seconds."
+        }
+    },
+    "savage": {
+        "heroes": [
+            "enchantress",
+            "lone druid",
+            "lycan",
+            "sand king",
+            "tusk",
+            "venomancer"
+        ],
+        "effects": {
+            "2": "allies gain + 10% attack damage.",
+            "4": "allies gain + 25% attack damage.",
+            "6": "allies gain + 45% attack damage."
+        }
+    },
+    "scaled": {
+        "heroes": [
+            "medusa",
+            "slardar",
+            "slark",
+            "tidehunter"
+        ],
+        "effects": {
+            "2": "allies gain + 30% magic resistance.",
+            "4": "allies gain + 50% magic resistance."
+        }
+    },
+    "scrappy": {
+        "heroes": [
+            "alchemist",
+            "bounty hunter",
+            "clockwerk",
+            "technies",
+            "timbersaw",
+            "tinker"
+        ],
+        "effects": {
+            "3": "a random ally is granted +9 armor and +8 hp regeneration. armor and hp are doubled if you start the fight with less units than your opponent.",
+            "6": "allies gain +9 armor and +8 hp regeneration. armor and hp are doubled if you start the fight with less units than your opponent."
+        }
+    },
+    "shaman": {
+        "heroes": [
+            "disruptor",
+            "shadow shaman",
+            "arc warden"
+        ],
+        "effects": {
+            "2": "a random enemy is turned into a frog for 6 seconds at the start of combat."
+        }
+    },
+    "troll": {
+        "heroes": [
+            "batrider",
+            "shadow shaman",
+            "troll warlord",
+            "witchdoctor"
+        ],
+        "effects": {
+            "2": "troll units gain +35 attack speed.",
+            "4": "troll units gain +65 attack speed and other allies gain +30 attack speed."
+        }
+    },
+    "warlock": {
+        "heroes": [
+            "alchemist",
+            "enigma",
+            "necrophos",
+            "shadow fiend",
+            "venomancer",
+            "witchdoctor",
+            "warlock"
+        ],
+        "effects": {
+            "2": "allies gain +15% lifesteal",
+            "4": "allies gain +30% lifesteal",
+            "6": "allies gain +50% lifesteal"
+        }
+    },
+    "warrior": {
+        "heroes": [
+            "axe",
+            "doom",
+            "juggernaut",
+            "kunkka",
+            "lycan",
+            "slardar",
+            "tiny",
+            "troll warlord",
+            "tusk",
+            "pudge"
+        ],
+        "effects": {
+            "3": "warriors gain +10 armor",
+            "6": "warriors gain +15 armor",
+            "9": "warriors gain +25 armor"
+        }
+    }
+}

@@ -1,0 +1,247 @@
+{
+    "bloodseeker": [
+        "assassin",
+        "human"
+    ],
+    "bounty hunter": [
+        "assassin",
+        "scrappy"
+    ],
+    "morphling": [
+        "assassin",
+        "primordial"
+    ],
+    "phantom assassin": [
+        "assassin",
+        "elusive"
+    ],
+    "queen of pain": [
+        "assassin",
+        "demon"
+    ],
+    "sand king": [
+        "assassin",
+        "savage"
+    ],
+    "slark": [
+        "assassin",
+        "scaled"
+    ],
+    "templar assassin": [
+        "assassin",
+        "elusive"
+    ],
+    "viper": [
+        "assassin",
+        "dragon"
+    ],
+    "ogre magi": [
+        "blood-bound",
+        "mage"
+    ],
+    "warlock": [
+        "blood-bound",
+        "warlock"
+    ],
+    "axe": [
+        "brawny",
+        "warrior"
+    ],
+    "beastmaster": [
+        "brawny",
+        "hunter"
+    ],
+    "disruptor": [
+        "brawny",
+        "shaman"
+    ],
+    "juggernaut": [
+        "brawny",
+        "warrior"
+    ],
+    "gyrocopter": [
+        "deadeye",
+        "inventor"
+    ],
+    "sniper": [
+        "deadeye",
+        "hunter"
+    ],
+    "chaos knight": [
+        "demon",
+        "knight"
+    ],
+    "doom": [
+        "demon",
+        "warrior"
+    ],
+    "shadow fiend": [
+        "demon",
+        "warlock"
+    ],
+    "terrorblade": [
+        "demon",
+        "demon hunter"
+    ],
+    "anti-mage": [
+        "demon hunter",
+        "elusive"
+    ],
+    "dragon knight": [
+        "dragon",
+        "human",
+        "knight"
+    ],
+    "puck": [
+        "dragon",
+        "elusive",
+        "mage"
+    ],
+    "enchantress": [
+        "druid",
+        "savage"
+    ],
+    "nature's prophet": [
+        "druid",
+        "elusive"
+    ],
+    "lone druid": [
+        "druid",
+        "savage"
+    ],
+    "treant protector": [
+        "druid",
+        "elusive"
+    ],
+    "luna": [
+        "elusive",
+        "knight"
+    ],
+    "wind ranger": [
+        "elusive",
+        "hunter"
+    ],
+    "mirana": [
+        "elusive",
+        "hunter"
+    ],
+    "abaddon": [
+        "heartless",
+        "knight"
+    ],
+    "drow ranger": [
+        "heartless",
+        "hunter"
+    ],
+    "lich": [
+        "heartless",
+        "mage"
+    ],
+    "necrophos": [
+        "heartless",
+        "warlock"
+    ],
+    "pudge": [
+        "heartless",
+        "warrior"
+    ],
+    "crystal maiden": [
+        "human",
+        "mage"
+    ],
+    "keeper of the light": [
+        "human",
+        "mage"
+    ],
+    "kunkka": [
+        "human",
+        "warrior"
+    ],
+    "lina": [
+        "human",
+        "mage"
+    ],
+    "lycan": [
+        "human",
+        "savage",
+        "warrior"
+    ],
+    "omniknight": [
+        "human",
+        "knight"
+    ],
+    "medusa": [
+        "hunter",
+        "scaled"
+    ],
+    "tidehunter": [
+        "hunter",
+        "scaled"
+    ],
+    "clockwerk": [
+        "inventor",
+        "scrappy"
+    ],
+    "techies": [
+        "inventor"
+    ],
+    "timbersaw": [
+        "inventor",
+        "scrappy"
+    ],
+    "tinker": [
+        "inventor",
+        "scrappy"
+    ],
+    "batrider": [
+        "knight",
+        "troll"
+    ],
+    "razor": [
+        "mage",
+        "primordial"
+    ],
+    "enigma": [
+        "primordial",
+        "warlock"
+    ],
+    "tiny": [
+        "primordial",
+        "warrior"
+    ],
+    "arc warden": [
+        "primordial",
+        "shaman"
+    ],
+    "tusk": [
+        "savage",
+        "warrior"
+    ],
+    "venomancer": [
+        "savage",
+        "warlock"
+    ],
+    "slardar": [
+        "scaled",
+        "warrior"
+    ],
+    "alchemist": [
+        "scrappy",
+        "warlock"
+    ],
+    "technies": [
+        "scrappy"
+    ],
+    "shadow shaman": [
+        "shaman",
+        "troll"
+    ],
+    "troll warlord": [
+        "troll",
+        "warrior"
+    ],
+    "witchdoctor": [
+        "troll",
+        "warlock"
+    ]
+}

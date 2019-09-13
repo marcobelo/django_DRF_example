@@ -1,0 +1,49 @@
+assassin|3|assassins gain a 10% chance to critical hit for 300% damage.
+assassin|6|assassins gain a 20% chance to critical hit for 400% damage.
+assassin|9|assassins gain a 30% chance to critical hit for 500% damage.
+blood-bound|2|when a blood-bound unit dies, all other blood-bound units deal +100% attack damage for the rest of the battle.
+brawny|2|all brawny units have their maximum hp increased by 200.
+brawny|4|all brawny units have their maximum hp increased by 500.
+deadeye|2|deadeye units focus their attacks on the lowest-health enemy.
+demon|1|demon units gain +50% pure damage. active when you have only one type of demon unit on the board.
+demon hunter|1|invalidate your opponents demon alliance bonus.
+demon hunter|2|invalidate your opponents demon alliance bonus. demon units gain +50% pure damage.
+dragon|2|all dragon units unlock an additional draconic ability.
+druid|2|the lowest star ally druid is upgraded a level.
+druid|4|the 2 lowest star ally druids are upgraded a level each.
+elusive|3|elusive units gain +20% evasion.
+elusive|6|elusive units gain +45% evasion.
+elusive|9|elusive units gain +75% evasion.
+heartless|2|enemies suffer -5 armor.
+heartless|4|enemies suffer -10 armor.
+heartless|6|enemies suffer -20 armor.
+human|2|human units gain a 20% chance to silence target for 4 seconds when attacking.
+human|4|human units gain a 44% chance to silence target for 4 seconds when attacking.
+human|6|human units gain a 66% chance to silence target for 4 seconds when attacking.
+hunter|3|hunters have a 15% chance of quickly performing 3 attacks.
+hunter|6|hunters have a 25% chance of quickly performing 3 attacks.
+inventor|2|inventors gain +15 hp regeneration.
+inventor|4|inventors gain +40 hp regeneration.
+knight|2|knight units take 15% less physical and magic damage and an additional 20% when standing 1 cell away from another knight.
+knight|4|knight units take 25% less physical and magic damage and an additional 25% when standing 1 cell away from another knight.
+knight|6|knight units take 35% less physical and magic damage and an additional 30% when standing 1 cell away from another knight.
+mage|3|enemies suffer -40% magic resistance.
+mage|6|enemies suffer -100% magic resistance.
+primordial|2|when hit, primordial units have a 30% chance to disarm melee attackers for 4 seconds.
+primordial|4|when hit, allies have a 30% chance to disarm melee attackers for 4 seconds.
+savage|2|allies gain + 10% attack damage.
+savage|4|allies gain + 25% attack damage.
+savage|6|allies gain + 45% attack damage.
+scaled|2|allies gain + 30% magic resistance.
+scaled|4|allies gain + 50% magic resistance.
+scrappy|3|a random ally is granted +9 armor and +8 hp regeneration. armor and hp are doubled if you start the fight with less units than your opponent.
+scrappy|6|allies gain +9 armor and +8 hp regeneration. armor and hp are doubled if you start the fight with less units than your opponent.
+shaman|2|a random enemy is turned into a frog for 6 seconds at the start of combat.
+troll|2|troll units gain +35 attack speed.
+troll|4|troll units gain +65 attack speed and other allies gain +30 attack speed.
+warlock|2|allies gain +15% lifesteal
+warlock|4|allies gain +30% lifesteal
+warlock|6|allies gain +50% lifesteal
+warrior|3|warriors gain +10 armor
+warrior|6|warriors gain +15 armor
+warrior|9|warriors gain +25 armor

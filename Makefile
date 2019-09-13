@@ -2,9 +2,14 @@ clean:
 	find . -name "*.pyc" -exec rm -rf {} \;
 	rm -rf *.log
 
+populate_db:
+	. venv/bin/activate
+	cd ./backend/underlords/data && python populate.py
+
 migra:
 	. venv/bin/activate
 	cd ./backend && python manage.py makemigrations && python manage.py migrate
+	make populate_db
 
 runserver:
 	. venv/bin/activate
