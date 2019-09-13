@@ -6,6 +6,11 @@ class Heroes(models.Model):
     name = models.TextField(max_length=80, null=False, unique=True)
     brazilian_name = models.TextField(max_length=80, null=False, unique=True)
 
+    # @classmethod
+    # def build(cls):
+    #     heroes = cls.objects.filter(name__in=["lina", "mirana"])
+    #     return heroes
+
 
 class Alliances(models.Model):
     name = models.TextField(max_length=80, null=False, unique=True)
