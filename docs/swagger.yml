@@ -1,0 +1,20 @@
+openapi: 3.0.1
+info:
+  title: Django API
+  description: Sample Django + DRF project
+  contact:
+    email: "marco.barone.belo@gmail.com"
+  version: 0.0.1
+servers:
+  - url: "http://localhost:8000/api"
+tags:
+  - name: Utilities
+  - name: Underlords
+
+paths:
+  /healthcheck:
+    get:
+      tags:
+        - Utilities
+      summary: Healthcheck
+      $ref: "paths/healthcheck.yml"
