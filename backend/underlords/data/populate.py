@@ -15,8 +15,8 @@ alliances_insert = """
     ) VALUES(?)
 """
 heroes_alliances_insert = """
-    INSERT INTO underlords_heroesalliances(
-        hero_id, alliance_id
+    INSERT INTO underlords_heroes_alliances(
+        heroes_id, alliances_id
     ) VALUES(?,?)
 """
 alliances_effects_insert = """

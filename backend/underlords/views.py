@@ -25,4 +25,24 @@ class AlliancesListView(APIView):
     view = ListViewFactory(AlliancesSerializer, Alliances)
 
     def get(self, request):
+        heroes = [
+            "medusa",
+            "drow ranger",
+            "tidehunter",
+            "luna",
+            "chaos knight",
+            "omniknight",
+            "dragon knight",
+            "abbaddon",
+            "batrider",
+            "troll warlord",
+        ]
+
+        res = Heroes.build(heroes)
+        import ipdb
+
+        ipdb.set_trace()
+        for hero in res:
+            print(f"{hero.name} - {hero.tier}")
         return self.view.get(request)
+

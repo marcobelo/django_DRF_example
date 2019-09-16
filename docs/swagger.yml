@@ -26,6 +26,13 @@ paths:
       summary: List heroes names and tiers
       $ref: "paths/list_heroes.yml"
   
+  /alliances/:
+    get:
+      tags:
+        - Underlords
+      summary: List alliances names
+      $ref: "paths/list_alliances.yml"
+  
   /build/{heroes}:
     get:
       tags:

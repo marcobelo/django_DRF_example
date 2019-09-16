@@ -14,3 +14,10 @@ class AlliancesSerializer(serializers.ModelSerializer):
         model = Alliances
         depth = 1
         fields = ["name"]
+
+
+class BuildSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Heroes
+        depth = 1
+        # fields = []
