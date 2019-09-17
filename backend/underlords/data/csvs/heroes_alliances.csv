@@ -2,7 +2,7 @@ abaddon|heartless
 abaddon|knight
 alchemist|scrappy
 alchemist|warlock
-anti-mage|demon hunter
+anti-mage|demon_hunter
 anti-mage|elusive
 arc warden|primordial
 arc warden|shaman
@@ -64,7 +64,7 @@ nature's prophet|druid
 nature's prophet|elusive
 necrophos|heartless
 necrophos|warlock
-ogre magi|blood-bound
+ogre magi|blood_bound
 ogre magi|mage
 omniknight|human
 omniknight|knight
@@ -95,7 +95,7 @@ techies|inventor
 techies|scrappy
 templar assassin|assassin
 templar assassin|elusive
-terrorblade|demon hunter
+terrorblade|demon_hunter
 terrorblade|demon
 tidehunter|hunter
 tidehunter|scaled
@@ -115,7 +115,7 @@ venomancer|savage
 venomancer|warlock
 viper|assassin
 viper|dragon
-warlock|blood-bound
+warlock|blood_bound
 warlock|warlock
 wind ranger|elusive
 wind ranger|hunter

@@ -1,13 +1,13 @@
 assassin|3|assassins gain a 10% chance to critical hit for 300% damage.
 assassin|6|assassins gain a 20% chance to critical hit for 400% damage.
 assassin|9|assassins gain a 30% chance to critical hit for 500% damage.
-blood-bound|2|when a blood-bound unit dies, all other blood-bound units deal +100% attack damage for the rest of the battle.
+blood_bound|2|when a blood-bound unit dies, all other blood-bound units deal +100% attack damage for the rest of the battle.
 brawny|2|all brawny units have their maximum hp increased by 200.
 brawny|4|all brawny units have their maximum hp increased by 500.
 deadeye|2|deadeye units focus their attacks on the lowest-health enemy.
 demon|1|demon units gain +50% pure damage. active when you have only one type of demon unit on the board.
-demon hunter|1|invalidate your opponents demon alliance bonus.
-demon hunter|2|invalidate your opponents demon alliance bonus. demon units gain +50% pure damage.
+demon_hunter|1|invalidate your opponents demon alliance bonus.
+demon_hunter|2|invalidate your opponents demon alliance bonus. demon units gain +50% pure damage.
 dragon|2|all dragon units unlock an additional draconic ability.
 druid|2|the lowest star ally druid is upgraded a level.
 druid|4|the 2 lowest star ally druids are upgraded a level each.

@@ -33,9 +33,9 @@ paths:
       summary: List alliances names
       $ref: "paths/list_alliances.yml"
   
-  /build/{heroes}:
-    get:
+  /build/:
+    post:
       tags:
         - Underlords
-      summary: Send your 10 heroes via path param and get the heroes separated by tier and all alliances effects gained
+      summary: Send your 10 heroes and get the heroes separated by tier and all alliances effects gained
       $ref: "paths/build.yml"

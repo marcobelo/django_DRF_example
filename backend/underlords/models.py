@@ -27,9 +27,9 @@ class Heroes(models.Model):
         effects_per_alliance = {}
         for hero in heroes:
             try:
-                heroes_per_tier[hero.tier].append(hero.name)
+                heroes_per_tier[f"tier_{hero.tier}"].append(hero.name)
             except KeyError:
-                heroes_per_tier[hero.tier] = [hero.name]
+                heroes_per_tier[f"tier_{hero.tier}"] = [hero.name]
 
             for alliance in hero.alliances.all():
                 try:

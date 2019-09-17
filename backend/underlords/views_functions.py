@@ -4,12 +4,6 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 
-def list_view(model, serializer):
-    data_list = model.objects.all()
-    result = serializer(data_list, many=True)
-    return Response(result.data)
-
-
 class ListViewFactory(APIView):
     def __init__(self, serializer_class, model):
         self.serializer_class = serializer_class

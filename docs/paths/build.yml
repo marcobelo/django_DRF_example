@@ -1,3 +1,16 @@
+requestBody:
+  content:
+    application/json:
+      schema:
+        required:
+        - heroes
+        type: object
+        properties:
+          heroes:
+            type: array
+            example: ["medusa","drow ranger","tidehunter","luna","chaos knight","omniknight","dragon knight","abbaddon","batrider","troll warlord"]
+            items:
+              type: string
 responses:
   200:
     description: ok
@@ -9,27 +22,27 @@ responses:
             heroes_per_tier:
               type: object
               properties:
-                1:
+                tier_1:
                   type: array
                   items:
                     type: string
                     example: "axe"
-                2:
+                tier_2:
                   type: array
                   items:
                     type: string
                     example: "juggernaut"
-                3:
+                tier_3:
                   type: array
                   items:
                     type: string
                     example: "lycan"
-                4:
+                tier_4:
                   type: array
                   items:
                     type: string
                     example: "mirana"
-                5:
+                tier_5:
                   type: array
                   items:
                     type: string
