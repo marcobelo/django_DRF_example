@@ -1,0 +1,1783 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "underlords",
+        "model": "alliances"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "underlords",
+        "model": "heroes"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "underlords",
+        "model": "allianceseffects"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 1,
+    "fields": {
+        "name": "assassin"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 2,
+    "fields": {
+        "name": "blood-bound"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 3,
+    "fields": {
+        "name": "brawny"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 4,
+    "fields": {
+        "name": "deadeye"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 5,
+    "fields": {
+        "name": "demon"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 6,
+    "fields": {
+        "name": "demon hunter"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 7,
+    "fields": {
+        "name": "dragon"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 8,
+    "fields": {
+        "name": "druid"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 9,
+    "fields": {
+        "name": "elusive"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 10,
+    "fields": {
+        "name": "heartless"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 11,
+    "fields": {
+        "name": "human"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 12,
+    "fields": {
+        "name": "hunter"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 13,
+    "fields": {
+        "name": "inventor"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 14,
+    "fields": {
+        "name": "knight"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 15,
+    "fields": {
+        "name": "mage"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 16,
+    "fields": {
+        "name": "primordial"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 17,
+    "fields": {
+        "name": "savage"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 18,
+    "fields": {
+        "name": "scaled"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 19,
+    "fields": {
+        "name": "scrappy"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 20,
+    "fields": {
+        "name": "shaman"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 21,
+    "fields": {
+        "name": "troll"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 22,
+    "fields": {
+        "name": "warlock"
+    }
+},
+{
+    "model": "underlords.alliances",
+    "pk": 23,
+    "fields": {
+        "name": "warrior"
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 1,
+    "fields": {
+        "alliance": 1,
+        "quantity": 3,
+        "effect": "assassins gain a 10% chance to critical hit for 300% damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 2,
+    "fields": {
+        "alliance": 1,
+        "quantity": 6,
+        "effect": "assassins gain a 20% chance to critical hit for 400% damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 3,
+    "fields": {
+        "alliance": 1,
+        "quantity": 9,
+        "effect": "assassins gain a 30% chance to critical hit for 500% damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 4,
+    "fields": {
+        "alliance": 2,
+        "quantity": 2,
+        "effect": "when a blood-bound unit dies, all other blood-bound units deal +100% attack damage for the rest of the battle."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 5,
+    "fields": {
+        "alliance": 3,
+        "quantity": 2,
+        "effect": "all brawny units have their maximum hp increased by 200."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 6,
+    "fields": {
+        "alliance": 3,
+        "quantity": 4,
+        "effect": "all brawny units have their maximum hp increased by 500."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 7,
+    "fields": {
+        "alliance": 4,
+        "quantity": 2,
+        "effect": "deadeye units focus their attacks on the lowest-health enemy."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 8,
+    "fields": {
+        "alliance": 5,
+        "quantity": 1,
+        "effect": "demon units gain +50% pure damage. active when you have only one type of demon unit on the board."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 9,
+    "fields": {
+        "alliance": 6,
+        "quantity": 1,
+        "effect": "invalidate your opponents demon alliance bonus."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 10,
+    "fields": {
+        "alliance": 6,
+        "quantity": 2,
+        "effect": "invalidate your opponents demon alliance bonus. demon units gain +50% pure damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 11,
+    "fields": {
+        "alliance": 7,
+        "quantity": 2,
+        "effect": "all dragon units unlock an additional draconic ability."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 12,
+    "fields": {
+        "alliance": 8,
+        "quantity": 2,
+        "effect": "the lowest star ally druid is upgraded a level."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 13,
+    "fields": {
+        "alliance": 8,
+        "quantity": 4,
+        "effect": "the 2 lowest star ally druids are upgraded a level each."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 14,
+    "fields": {
+        "alliance": 9,
+        "quantity": 3,
+        "effect": "elusive units gain +20% evasion."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 15,
+    "fields": {
+        "alliance": 9,
+        "quantity": 6,
+        "effect": "elusive units gain +45% evasion."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 16,
+    "fields": {
+        "alliance": 9,
+        "quantity": 9,
+        "effect": "elusive units gain +75% evasion."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 17,
+    "fields": {
+        "alliance": 10,
+        "quantity": 2,
+        "effect": "enemies suffer -5 armor."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 18,
+    "fields": {
+        "alliance": 10,
+        "quantity": 4,
+        "effect": "enemies suffer -10 armor."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 19,
+    "fields": {
+        "alliance": 10,
+        "quantity": 6,
+        "effect": "enemies suffer -20 armor."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 20,
+    "fields": {
+        "alliance": 11,
+        "quantity": 2,
+        "effect": "human units gain a 20% chance to silence target for 4 seconds when attacking."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 21,
+    "fields": {
+        "alliance": 11,
+        "quantity": 4,
+        "effect": "human units gain a 44% chance to silence target for 4 seconds when attacking."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 22,
+    "fields": {
+        "alliance": 11,
+        "quantity": 6,
+        "effect": "human units gain a 66% chance to silence target for 4 seconds when attacking."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 23,
+    "fields": {
+        "alliance": 12,
+        "quantity": 3,
+        "effect": "hunters have a 15% chance of quickly performing 3 attacks."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 24,
+    "fields": {
+        "alliance": 12,
+        "quantity": 6,
+        "effect": "hunters have a 25% chance of quickly performing 3 attacks."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 25,
+    "fields": {
+        "alliance": 13,
+        "quantity": 2,
+        "effect": "inventors gain +15 hp regeneration."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 26,
+    "fields": {
+        "alliance": 13,
+        "quantity": 4,
+        "effect": "inventors gain +40 hp regeneration."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 27,
+    "fields": {
+        "alliance": 14,
+        "quantity": 2,
+        "effect": "knight units take 15% less physical and magic damage and an additional 20% when standing 1 cell away from another knight."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 28,
+    "fields": {
+        "alliance": 14,
+        "quantity": 4,
+        "effect": "knight units take 25% less physical and magic damage and an additional 25% when standing 1 cell away from another knight."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 29,
+    "fields": {
+        "alliance": 14,
+        "quantity": 6,
+        "effect": "knight units take 35% less physical and magic damage and an additional 30% when standing 1 cell away from another knight."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 30,
+    "fields": {
+        "alliance": 15,
+        "quantity": 3,
+        "effect": "enemies suffer -40% magic resistance."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 31,
+    "fields": {
+        "alliance": 15,
+        "quantity": 6,
+        "effect": "enemies suffer -100% magic resistance."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 32,
+    "fields": {
+        "alliance": 16,
+        "quantity": 2,
+        "effect": "when hit, primordial units have a 30% chance to disarm melee attackers for 4 seconds."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 33,
+    "fields": {
+        "alliance": 16,
+        "quantity": 4,
+        "effect": "when hit, allies have a 30% chance to disarm melee attackers for 4 seconds."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 34,
+    "fields": {
+        "alliance": 17,
+        "quantity": 2,
+        "effect": "allies gain + 10% attack damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 35,
+    "fields": {
+        "alliance": 17,
+        "quantity": 4,
+        "effect": "allies gain + 25% attack damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 36,
+    "fields": {
+        "alliance": 17,
+        "quantity": 6,
+        "effect": "allies gain + 45% attack damage."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 37,
+    "fields": {
+        "alliance": 18,
+        "quantity": 2,
+        "effect": "allies gain + 30% magic resistance."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 38,
+    "fields": {
+        "alliance": 18,
+        "quantity": 4,
+        "effect": "allies gain + 50% magic resistance."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 39,
+    "fields": {
+        "alliance": 19,
+        "quantity": 3,
+        "effect": "a random ally is granted +9 armor and +8 hp regeneration. armor and hp are doubled if you start the fight with less units than your opponent."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 40,
+    "fields": {
+        "alliance": 19,
+        "quantity": 6,
+        "effect": "allies gain +9 armor and +8 hp regeneration. armor and hp are doubled if you start the fight with less units than your opponent."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 41,
+    "fields": {
+        "alliance": 20,
+        "quantity": 2,
+        "effect": "a random enemy is turned into a frog for 6 seconds at the start of combat."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 42,
+    "fields": {
+        "alliance": 21,
+        "quantity": 2,
+        "effect": "troll units gain +35 attack speed."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 43,
+    "fields": {
+        "alliance": 21,
+        "quantity": 4,
+        "effect": "troll units gain +65 attack speed and other allies gain +30 attack speed."
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 44,
+    "fields": {
+        "alliance": 22,
+        "quantity": 2,
+        "effect": "allies gain +15% lifesteal"
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 45,
+    "fields": {
+        "alliance": 22,
+        "quantity": 4,
+        "effect": "allies gain +30% lifesteal"
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 46,
+    "fields": {
+        "alliance": 22,
+        "quantity": 6,
+        "effect": "allies gain +50% lifesteal"
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 47,
+    "fields": {
+        "alliance": 23,
+        "quantity": 3,
+        "effect": "warriors gain +10 armor"
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 48,
+    "fields": {
+        "alliance": 23,
+        "quantity": 6,
+        "effect": "warriors gain +15 armor"
+    }
+},
+{
+    "model": "underlords.allianceseffects",
+    "pk": 49,
+    "fields": {
+        "alliance": 23,
+        "quantity": 9,
+        "effect": "warriors gain +25 armor"
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 1,
+    "fields": {
+        "tier": 3,
+        "name": "abaddon",
+        "brazilian_name": "abaddon",
+        "alliances": [
+            10,
+            14
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 2,
+    "fields": {
+        "tier": 4,
+        "name": "alchemist",
+        "brazilian_name": "alquimista",
+        "alliances": [
+            19,
+            22
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 3,
+    "fields": {
+        "tier": 1,
+        "name": "anti-mage",
+        "brazilian_name": "antimago",
+        "alliances": [
+            6,
+            9
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 4,
+    "fields": {
+        "tier": 4,
+        "name": "arc warden",
+        "brazilian_name": "guardi\u00e3o do arco",
+        "alliances": [
+            16,
+            20
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 5,
+    "fields": {
+        "tier": 1,
+        "name": "axe",
+        "brazilian_name": "machado",
+        "alliances": [
+            3,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 6,
+    "fields": {
+        "tier": 1,
+        "name": "batrider",
+        "brazilian_name": "morcegueiro",
+        "alliances": [
+            14,
+            21
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 7,
+    "fields": {
+        "tier": 2,
+        "name": "beastmaster",
+        "brazilian_name": "senhor das feras",
+        "alliances": [
+            3,
+            12
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 8,
+    "fields": {
+        "tier": 1,
+        "name": "bloodseeker",
+        "brazilian_name": "sanguin\u00e1rio",
+        "alliances": [
+            1,
+            11
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 9,
+    "fields": {
+        "tier": 1,
+        "name": "bounty hunter",
+        "brazilian_name": "ca\u00e7ador de recompensas",
+        "alliances": [
+            1,
+            19
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 10,
+    "fields": {
+        "tier": 2,
+        "name": "chaos knight",
+        "brazilian_name": "cavaleiro do caos",
+        "alliances": [
+            5,
+            14
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 11,
+    "fields": {
+        "tier": 3,
+        "name": "clockwerk",
+        "brazilian_name": "mecanismo",
+        "alliances": [
+            13,
+            19
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 12,
+    "fields": {
+        "tier": 2,
+        "name": "crystal maiden",
+        "brazilian_name": "donzela cristalina",
+        "alliances": [
+            11,
+            15
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 13,
+    "fields": {
+        "tier": 4,
+        "name": "disruptor",
+        "brazilian_name": "disruptor",
+        "alliances": [
+            3,
+            20
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 14,
+    "fields": {
+        "tier": 4,
+        "name": "doom",
+        "brazilian_name": "condenador",
+        "alliances": [
+            5,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 15,
+    "fields": {
+        "tier": 4,
+        "name": "dragon knight",
+        "brazilian_name": "cavaleiro drag\u00e3o",
+        "alliances": [
+            7,
+            11,
+            14
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 16,
+    "fields": {
+        "tier": 1,
+        "name": "drow ranger",
+        "brazilian_name": "patrulheira drow",
+        "alliances": [
+            10,
+            12
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 17,
+    "fields": {
+        "tier": 1,
+        "name": "enchantress",
+        "brazilian_name": "encantadora",
+        "alliances": [
+            8,
+            17
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 18,
+    "fields": {
+        "tier": 5,
+        "name": "enigma",
+        "brazilian_name": "enigma",
+        "alliances": [
+            16,
+            22
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 19,
+    "fields": {
+        "tier": 5,
+        "name": "gyrocopter",
+        "brazilian_name": "giroc\u00f3tero",
+        "alliances": [
+            4,
+            13
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 20,
+    "fields": {
+        "tier": 2,
+        "name": "juggernaut",
+        "brazilian_name": "implac\u00e1vel",
+        "alliances": [
+            3,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 21,
+    "fields": {
+        "tier": 4,
+        "name": "keeper of the light",
+        "brazilian_name": "guardi\u00e3o da luz",
+        "alliances": [
+            11,
+            15
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 22,
+    "fields": {
+        "tier": 4,
+        "name": "kunkka",
+        "brazilian_name": "kunkka",
+        "alliances": [
+            11,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 23,
+    "fields": {
+        "tier": 5,
+        "name": "lich",
+        "brazilian_name": "lich",
+        "alliances": [
+            10,
+            15
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 24,
+    "fields": {
+        "tier": 3,
+        "name": "lina",
+        "brazilian_name": "lina",
+        "alliances": [
+            11,
+            15
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 25,
+    "fields": {
+        "tier": 4,
+        "name": "lone druid",
+        "brazilian_name": "druida solit\u00e1rio",
+        "alliances": [
+            8,
+            17
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 26,
+    "fields": {
+        "tier": 2,
+        "name": "luna",
+        "brazilian_name": "luna",
+        "alliances": [
+            9,
+            14
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 27,
+    "fields": {
+        "tier": 3,
+        "name": "lycan",
+        "brazilian_name": "lican",
+        "alliances": [
+            11,
+            17,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 28,
+    "fields": {
+        "tier": 5,
+        "name": "medusa",
+        "brazilian_name": "medusa",
+        "alliances": [
+            12,
+            18
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 29,
+    "fields": {
+        "tier": 4,
+        "name": "mirana",
+        "brazilian_name": "mirana",
+        "alliances": [
+            9,
+            12
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 30,
+    "fields": {
+        "tier": 2,
+        "name": "morphling",
+        "brazilian_name": "morfoso",
+        "alliances": [
+            1,
+            16
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 31,
+    "fields": {
+        "tier": 2,
+        "name": "nature's prophet",
+        "brazilian_name": "profeta da natureza",
+        "alliances": [
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 32,
+    "fields": {
+        "tier": 4,
+        "name": "necrophos",
+        "brazilian_name": "n\u00e9crofos",
+        "alliances": [
+            10,
+            22
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 33,
+    "fields": {
+        "tier": 1,
+        "name": "ogre magi",
+        "brazilian_name": "ogro magi",
+        "alliances": [
+            2,
+            15
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 34,
+    "fields": {
+        "tier": 3,
+        "name": "omniknight",
+        "brazilian_name": "onitempl\u00e1rio",
+        "alliances": [
+            11,
+            14
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 35,
+    "fields": {
+        "tier": 3,
+        "name": "phantom assassin",
+        "brazilian_name": "assassina fantasma",
+        "alliances": [
+            1,
+            9
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 36,
+    "fields": {
+        "tier": 2,
+        "name": "puck",
+        "brazilian_name": "puck",
+        "alliances": [
+            7,
+            9,
+            15
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 37,
+    "fields": {
+        "tier": 2,
+        "name": "pudge",
+        "brazilian_name": "pudge",
+        "alliances": [
+            10,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 38,
+    "fields": {
+        "tier": 2,
+        "name": "queen of pain",
+        "brazilian_name": "rainha da dor",
+        "alliances": [
+            1,
+            5
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 39,
+    "fields": {
+        "tier": 1,
+        "name": "razor",
+        "brazilian_name": "razor",
+        "alliances": [
+            15,
+            16
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 40,
+    "fields": {
+        "tier": 4,
+        "name": "sand king",
+        "brazilian_name": "rei da areia",
+        "alliances": [
+            1,
+            17
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 41,
+    "fields": {
+        "tier": 3,
+        "name": "shadow fiend",
+        "brazilian_name": "terror das sombras",
+        "alliances": [
+            5,
+            22
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 42,
+    "fields": {
+        "tier": 1,
+        "name": "shadow shaman",
+        "brazilian_name": "xam\u00e3 da sombras",
+        "alliances": [
+            20,
+            21
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 43,
+    "fields": {
+        "tier": 2,
+        "name": "slardar",
+        "brazilian_name": "slardar",
+        "alliances": [
+            18,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 44,
+    "fields": {
+        "tier": 3,
+        "name": "slark",
+        "brazilian_name": "slark",
+        "alliances": [
+            1,
+            18
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 45,
+    "fields": {
+        "tier": 3,
+        "name": "sniper",
+        "brazilian_name": "franco-atirador",
+        "alliances": [
+            4,
+            12
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 46,
+    "fields": {
+        "tier": 5,
+        "name": "techies",
+        "brazilian_name": "techies",
+        "alliances": [
+            13,
+            19
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 47,
+    "fields": {
+        "tier": 4,
+        "name": "templar assassin",
+        "brazilian_name": "assassina templ\u00e1ria",
+        "alliances": [
+            1,
+            9
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 48,
+    "fields": {
+        "tier": 3,
+        "name": "terrorblade",
+        "brazilian_name": "terror",
+        "alliances": [
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 49,
+    "fields": {
+        "tier": 4,
+        "name": "tidehunter",
+        "brazilian_name": "ca\u00e7ador da mar\u00e9",
+        "alliances": [
+            12,
+            18
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 50,
+    "fields": {
+        "tier": 2,
+        "name": "timbersaw",
+        "brazilian_name": "serrote",
+        "alliances": [
+            13,
+            19
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 51,
+    "fields": {
+        "tier": 3,
+        "name": "tinker",
+        "brazilian_name": "inventor",
+        "alliances": [
+            13,
+            19
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 52,
+    "fields": {
+        "tier": 1,
+        "name": "tiny",
+        "brazilian_name": "pedrinha",
+        "alliances": [
+            16,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 53,
+    "fields": {
+        "tier": 3,
+        "name": "treant protector",
+        "brazilian_name": "protetor arvoroso",
+        "alliances": [
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 54,
+    "fields": {
+        "tier": 5,
+        "name": "troll warlord",
+        "brazilian_name": "comandante troll",
+        "alliances": [
+            21,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 55,
+    "fields": {
+        "tier": 1,
+        "name": "tusk",
+        "brazilian_name": "marfim",
+        "alliances": [
+            17,
+            23
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 56,
+    "fields": {
+        "tier": 1,
+        "name": "venomancer",
+        "brazilian_name": "venomante",
+        "alliances": [
+            17,
+            22
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 57,
+    "fields": {
+        "tier": 3,
+        "name": "viper",
+        "brazilian_name": "v\u00edbora",
+        "alliances": [
+            1,
+            7
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 58,
+    "fields": {
+        "tier": 1,
+        "name": "warlock",
+        "brazilian_name": "bruxo",
+        "alliances": [
+            2,
+            22
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 59,
+    "fields": {
+        "tier": 2,
+        "name": "wind ranger",
+        "brazilian_name": "patrulheira do vento",
+        "alliances": [
+            9,
+            12
+        ]
+    }
+},
+{
+    "model": "underlords.heroes",
+    "pk": 60,
+    "fields": {
+        "tier": 2,
+        "name": "witchdoctor",
+        "brazilian_name": "curandeiro",
+        "alliances": [
+            21,
+            22
+        ]
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add alliances",
+        "content_type": 7,
+        "codename": "add_alliances"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change alliances",
+        "content_type": 7,
+        "codename": "change_alliances"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete alliances",
+        "content_type": 7,
+        "codename": "delete_alliances"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view alliances",
+        "content_type": 7,
+        "codename": "view_alliances"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add heroes",
+        "content_type": 8,
+        "codename": "add_heroes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change heroes",
+        "content_type": 8,
+        "codename": "change_heroes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete heroes",
+        "content_type": 8,
+        "codename": "delete_heroes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view heroes",
+        "content_type": 8,
+        "codename": "view_heroes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add alliances effects",
+        "content_type": 9,
+        "codename": "add_allianceseffects"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change alliances effects",
+        "content_type": 9,
+        "codename": "change_allianceseffects"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete alliances effects",
+        "content_type": 9,
+        "codename": "delete_allianceseffects"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view alliances effects",
+        "content_type": 9,
+        "codename": "view_allianceseffects"
+    }
+}
+]

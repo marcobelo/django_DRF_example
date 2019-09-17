@@ -1,6 +1,5 @@
 import pytest
 import requests
-from django.core.management import call_command
 from hamcrest import assert_that, has_entries, has_items
 
 from tests.commons import BASE_URL
@@ -16,8 +15,7 @@ def test_healthcheck(client):
     assert_that(data, has_entries({"message": "running..."}))
 
 
-def test_list_heroes(client):
-    call_command("loaddata", "underlords.json", verbosity=0)
+def test_list_heroes(load_database_fixtures, client):
     response = client.get(f"{BASE_URL}/heroes/", format="json")
     data = response.json()
 

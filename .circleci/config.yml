@@ -26,6 +26,11 @@ jobs:
             . venv/bin/activate
             make migra
       - run:
+          name: "make populate db"
+          command: |
+            . venv/bin/activate
+            make populate_db
+      - run:
           name: "run underlords_tests"
           command: |
             . venv/bin/activate
