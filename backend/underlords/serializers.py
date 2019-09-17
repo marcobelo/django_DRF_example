@@ -1,7 +1,5 @@
 from rest_framework import serializers
 
-# from .models import Heroes, Alliances
-
 
 class HeroesSerializer(serializers.Serializer):
     tier = serializers.IntegerField()

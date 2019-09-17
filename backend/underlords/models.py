@@ -39,6 +39,7 @@ class Heroes(models.Model):
                     effects_per_alliance[alliance.name]["quantity"] = 1
                     effects_per_alliance[alliance.name]["id"] = alliance.id
 
+        alliances_with_no_effects = []
         for alliance in effects_per_alliance:
             alliance_temp = effects_per_alliance[alliance]
             effects = AlliancesEffects.objects.filter(
@@ -47,7 +48,10 @@ class Heroes(models.Model):
             try:
                 effects_per_alliance[alliance]["effect"] = effects[0].effect
             except IndexError:
-                effects_per_alliance[alliance]["effect"] = None
+                alliances_with_no_effects.append(alliance)
+
+        for alliance in alliances_with_no_effects:
+            del effects_per_alliance[alliance]
 
         return {
             "heroes_per_tier": heroes_per_tier,

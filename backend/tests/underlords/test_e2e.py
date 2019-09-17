@@ -1,5 +1,4 @@
 import pytest
-import requests
 from hamcrest import assert_that, has_entries, has_items
 
 from tests.commons import BASE_URL
